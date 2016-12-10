@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+.logo img {
+  height: 150px;
+}
+
+span {
+  font-family: "Bungee";
+  font-size: 60px;
+  float: right;
+  text-align: center;
+  margin-right: 100px;
+}
+
+button {
+  padding: 10px;
+  font-family: 'PT Sans Narrow';
+  font-size: 20px;
+}
+
+nav {
+  text-align: center;
+}
+
+button:hover {
+  background-color: #8d8d8d;
+  border-style: none;
+  box-sizing: content-box;
+  cursor: pointer;
+}
+
+.stories {
+  margin: auto;
+  width: 950px;
+}
+
+.stories div {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid rgb(125, 125, 125);
+  margin: 10px;
+  height: max-content;
+  float: left;
+}
+
+.stories div img {
+  width: 100%;
+}
+
+footer {
+  width: 100vw;
+  height: max-content;
+  text-align: center;
+  box-sizing: border-box;
+  color: rgb(125, 125, 125);
+  font-weight: lighter;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
